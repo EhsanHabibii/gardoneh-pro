@@ -1,0 +1,19 @@
+/* Admin Settings Tabs */
+.lwt-settings-wrap .nav-tab-wrapper { margin-bottom: 20px; }
+.lwt-settings-wrap .tab-content.hidden { display: none; }
+.lwt-settings-wrap .tab-content { padding-top: 10px; }
+
+/* AJAX Prize Table Modal */
+.lwt-modal { position: fixed; z-index: 10000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; }
+.lwt-modal-content { background-color: #fefefe; padding: 20px; border: 1px solid #888; width: 90%; max-width: 500px; border-radius: 5px; }
+.lwt-close-modal { color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer; line-height: 1; }
+#lwt-prize-form p { margin-bottom: 15px; }
+#lwt-prize-form label { display: block; font-weight: bold; margin-bottom: 5px; }
+#lwt-prize-form input[type="text"],
+#lwt-prize-form input[type="number"] { width: 100%; padding: 8px; }
+
+/* AJAX Prize Table Layout */
+.wp-list-table .column-primary { width: 35%; }
+.lwt-export-form { margin: 20px 0; }
+.ltr { direction: ltr; text-align: left; }
+.row-actions { left: auto; right: 0; }
